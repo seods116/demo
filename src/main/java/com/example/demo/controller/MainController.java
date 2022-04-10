@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 @RequestMapping(value = "/")
@@ -52,7 +51,7 @@ public class MainController {
         boards = jpaQuery.fetch();
         model.addAttribute("boards", boards);
 
-        return "main";
+        return "index";
     }
 
 }
