@@ -36,6 +36,9 @@ dependencies {
     annotationProcessor 'com.querydsl:querydsl-apt:4.4.0:jpa'
     annotationProcessor 'javax.annotation:javax.annotation-api'
 
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools
+    implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.0.4.RELEASE'
+
 }
 
 // Querydsl

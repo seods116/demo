@@ -27,10 +27,7 @@ public class MainController {
     private final QBoard qBoard = QBoard.board;
 
     @GetMapping
-    public String routeRoot(
-            @RequestParam(name = "code", required = false) Long code,
-            Model model
-    ) {
+    public String routeRoot(@RequestParam(name = "code", required = false) Long code, Model model) {
 
 //        Board board = new Board();
 //        board.setTitle("타이틀2");
